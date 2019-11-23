@@ -1,0 +1,35 @@
+{
+  "name": "electron-todo-test",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durilka/electron-todo-test.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Alexander Zaplatin",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0",
+    "electron-store": "^5.1.0",
+    "spectre.css": "^0.5.8"
+  },
+  "bugs": {
+    "url": "https://github.com/durilka/electron-todo-test/issues"
+  },
+  "homepage": "https://github.com/durilka/electron-todo-test#readme"
+}
