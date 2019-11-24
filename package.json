@@ -29,8 +29,4 @@
     "electron-store": "^5.1.0",
     "spectre.css": "^0.5.8"
   },
-  "bugs": {
-    "url": "https://github.com/durilka/electron-todo-test/issues"
-  },
-  "homepage": "https://github.com/durilka/electron-todo-test#readme"
 }
