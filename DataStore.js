@@ -9,7 +9,7 @@ class DataStore extends Store {
 		this.todos = this.get('todos') || []
 	}
 
-	saveTodos() {
+	saveTodos () {
 
 		this.set('todos', this.todos)
 
@@ -21,6 +21,13 @@ class DataStore extends Store {
 		this.todos = this.get('todos') || []
 
 		return this
+	}
+
+	addTodo (todo) {
+
+		this.todos = [ ...this.todos, todo ]
+
+		return this.saveTodos() 
 	}
 
 	deleteTodo (todo) {

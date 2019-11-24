@@ -2,7 +2,7 @@
 
 const { ipcRenderer } =require('electron')
 
-document.getElementDyId('todoForm').addEventListener('submit', (evt) => {
+document.getElementById('todoForm').addEventListener('submit', (evt) => {
 
 	evt.preventDefault()
 
@@ -12,3 +12,4 @@ document.getElementDyId('todoForm').addEventListener('submit', (evt) => {
 
 	input.value = ''
 })
+
